@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/chic-modern-luxury-aesthetics-style-living-room-blue-tone.jpg')no-repeat center center fixed;
+    background: url('/media/banner.jpg')no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh-164px);
     color: #555;
@@ -39,7 +39,7 @@ body {
 }
 
 .bg-black {
-    background-color: #665050 !important;
+    background: #665050 !important;
 }
 
 .shop-now-button:hover,
@@ -50,6 +50,10 @@ body {
 .btn-black:focus {
     background: #665050;
     color: white;
+}
+
+.header-container {
+    padding-top: 300px;
 }
 
 .text-black {
@@ -80,7 +84,5 @@ body {
         padding-top: 300px;
     }
 
-    .display-4 {
-        font-size: 2.5rem;
-    }
+
 }
