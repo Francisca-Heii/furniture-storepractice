@@ -9,5 +9,5 @@ def all_products(request):
         
     }
 
-    return render (request,'products/products.html')
+    return render (request,'products/products.html',context)
 

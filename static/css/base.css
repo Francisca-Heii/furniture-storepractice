@@ -41,6 +41,15 @@ body {
 .bg-black {
     background: #665050 !important;
 }
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
 
 .shop-now-button:hover,
 .shop-now-button:active,
