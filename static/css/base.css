@@ -41,7 +41,8 @@ body {
 .bg-black {
     background: #665050 !important;
 }
-.overlay{
+
+.overlay {
     height: 100%;
     width: 100%;
     top: 0;
@@ -49,6 +50,12 @@ body {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+a.category-badge>span.badge:hover {
+    background: #665050 !important;
+    color: #fff !important;
+
 }
 
 .shop-now-button:hover,
